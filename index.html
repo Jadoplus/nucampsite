@@ -65,7 +65,7 @@
                         alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
-                        <p class=".d-none d-sm-block">Explore our growing database of curated campsites and leave your
+                        <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your
                             own reviews!</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
             </div>
             <div class="col">
                 <h3>React Lake Campground</h3>
-                <p class=".d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on
+                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on
                     the shores of the pristine React Lake is a favorite for fly fishers.</p>
             </div>
             <div class="media">
@@ -95,7 +95,7 @@
                     <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
                     <div class="media-body align-self-center">
                         <h3>Bootstrap Outfitters</h3>
-                        <p class=".d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at
+                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at
                             prices you
                             can't beat.</p>
                     </div>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="row row-content align-items-center">
-            <div class="col-sm-12 col-md-4 mx-auto">
+            <div class="col-sm-6 mx-auto">
                 <div class="card">
                     <div class="card-header  text-white bg-info">
                         <h3>Reserve a campsite</h3>
@@ -115,7 +115,7 @@
                                 <label for="Number of Campers" class="col-sm-6 col-form-label">Number of
                                     Campers</label>
                                 <div class="col">
-                                    <select name="numCampers" id="numCampers">
+                                    <select name="numCampers" class="form-control" id="numCampers">
                                         <option value="select">Select</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -128,12 +128,15 @@
                             </div>
                             <div class="form-group row">
                                 <label for="date" class="col-sm-6 col-form-label">Date</label>
-                                <input type="date" class="form-group" class="form-control" name="date" placeholder="mm/dd/yyyy" />
+                                <div class="col">
+                                    <input type="date" class="form-control" name="date" placeholder="mm/dd/yyyy" />
+                                </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-6">
                                     <button type="submit" class="btn btn-primary">Search</button>
                                 </div>
+                            </div>
                         </form>
                     </div>
                 </div>
